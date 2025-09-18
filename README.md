@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Transcription-IA
+
+## 🇫🇷 Présentation
+
+Transcription-IA est une application web moderne permettant d'enregistrer des fichiers audio et de les transcrire automatiquement en texte grâce à l'intelligence artificielle. Elle propose une interface utilisateur intuitive pour enregistrer du son, lancer la transcription et éditer les résultats. Ce projet a été conçu pour démontrer l'intégration de technologies web avancées et de services d'IA dans un workflow complet.
+
+## Fonctionnalités principales
+
+- Enregistrement sonore avec interface sur-mesure
+- Transcription automatique via IA
+- Édition des résultats de transcription
+
+## Technologies utilisées
+
+- **Next.js** (React) — Framework web moderne pour le rendu côté serveur et la génération de sites statiques
+- **TypeScript** — Typage statique pour une meilleure robustesse du code
+- **Tailwind CSS** — Framework CSS utilitaire pour un design rapide et responsive
+- **API REST** — Pour la gestion des transcriptions
+- **Wavesurfer** — Gestion avancée de l'audio et visualisation des formes d'onde
+- **OpenAI** — Modèles d'IA pour la transcription et le traitement du langage
+
+## Lancement du projet
+
+```bash
+pnpm install
+pnpm dev
+```
+
+## Structure du projet
+
+- `app/` : Pages et API Next.js
+- `components/` : Composants UI réutilisables
+- `lib/` : Fonctions utilitaires et types
+
+---
+
+# Transcription-IA
+
+## 🇬🇧 Overview
+
+Transcription-IA is a modern web application for recording audio and automatically transcribing it into text using artificial intelligence. It features an intuitive user interface for recording sound, launching transcriptions, and editing results. This project demonstrates the integration of advanced web technologies and AI services in a complete workflow.
+
+## Main Features
+
+- Custom audio recording interface
+- Automatic AI-powered transcription
+- Edit transcription results
+
+## Technologies Used
+
+- **Next.js** (React) — Modern web framework for server-side rendering and static site generation
+- **TypeScript** — Static typing for improved code robustness
+- **Tailwind CSS** — Utility-first CSS framework for fast, responsive design
+- **REST API** — For transcription management
+- **ESLint** — Code linting and quality
+- **Wavesurfer** — Advanced audio management and waveform visualization
+- **OpenAI** — AI models for transcription and language processing
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `app/` : Next.js pages and API
+- `components/` : Reusable UI components
+- `lib/` : Utility functions and types
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Projet réalisé pour mon portfolio. N'hésitez pas à me contacter pour toute question ou suggestion !
+>
+> Project built for my portfolio. Feel free to contact me for any questions or suggestions!
