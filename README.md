@@ -1,5 +1,7 @@
 # Transcription-IA
 
+LIVE DEMO: https://transcription-ia.parallel46.ca
+
 ## 🇫🇷 Présentation
 
 Transcription-IA est une application web moderne permettant d'enregistrer des fichiers audio et de les transcrire automatiquement en texte grâce à l'intelligence artificielle. Elle propose une interface utilisateur intuitive pour enregistrer du son, lancer la transcription et éditer les résultats. Ce projet a été conçu pour démontrer l'intégration de technologies web avancées et de services d'IA dans un workflow complet.
